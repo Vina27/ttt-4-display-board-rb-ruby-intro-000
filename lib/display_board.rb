@@ -12,6 +12,7 @@ end
 
 board = [" "," "," "," ","x"," "," "," "," "]
 def display_board(board)
+  board[x] = "x"
   puts "   |   |   "
   puts "-----------"
   puts "   | x |   "
