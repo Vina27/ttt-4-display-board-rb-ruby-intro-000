@@ -13,9 +13,9 @@ end
 board = [" "," "," "," ","x"," "," "," "," "]
 def display_board(board)
   #capture_putsboard[x] = "x"
-  puts  "   |   |   "
-  puts  "-----------"
-  puts  "   | x |   "
-  puts  "-----------"
-  puts  "   |   |   "
+  puts (rows[0]) "   |   |   "
+  puts (rows[0]) "-----------"
+  puts (rows[0]) "   | x |   "
+  puts (rows[0]) "-----------"
+  puts (rows[0]) "   |   |   "
 end
